@@ -1,0 +1,21 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor and local tooling
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and local output
+*.log
+*.tmp
+tmp/
+reports/*.json
+
+# Secrets or environment-specific configuration
+.env
+*.mobileconfig
+*.plist
+
