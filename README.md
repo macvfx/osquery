@@ -2,6 +2,8 @@
 
 These scripts are meant to be pasted into SimpleMDM scripts, used as Custom Attributes, or used as starting points for longer collection jobs.
 
+They are built around the [MacAdmins osquery extension](https://github.com/macadmins/osquery-extension).
+
 They assume:
 
 - `osqueryi` is installed at `/usr/local/bin/osqueryi`.
@@ -77,3 +79,11 @@ If the extension is owned by root, `osqueryi` can load it normally. These script
 ## Notes
 
 The scripts return short, inventory-friendly values for SimpleMDM. They avoid external dependencies such as `jq` or Python so they can run in a default macOS shell environment.
+
+## Related projects
+
+- [macadmins/osquery-extension](https://github.com/macadmins/osquery-extension): osquery extension that provides the MacAdmins tables queried by these scripts.
+- [macvfx/SimpleSecurityCheck](https://github.com/macvfx/SimpleSecurityCheck): SimpleMDM security checks using SOFA feeds, including an app-based workflow.
+- [macvfx/SimpleChecks](https://github.com/macvfx/SimpleChecks): SimpleMDM script examples for lightweight checks.
+
+This repository stays separate from the other SimpleMDM security projects because it depends on osquery and the MacAdmins extension. Keeping it separate makes setup, troubleshooting, and reuse clearer.
