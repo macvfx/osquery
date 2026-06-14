@@ -83,7 +83,7 @@ The scripts return short, inventory-friendly values for SimpleMDM. They avoid ex
 ## Related projects
 
 - [macadmins/osquery-extension](https://github.com/macadmins/osquery-extension): osquery extension that provides the MacAdmins tables queried by these scripts.
-- [macvfx/SimpleSecurityCheck](https://github.com/macvfx/SimpleSecurityCheck): SimpleMDM security checks using SOFA feeds, including an app-based workflow.
+- [macvfx/SOFA](https://github.com/macvfx/SOFA): SOFA-focused macOS security feed examples and tooling.
 - [macvfx/SimpleChecks](https://github.com/macvfx/SimpleChecks): SimpleMDM script examples for lightweight checks.
 
 This repository stays separate from the other SimpleMDM security projects because it depends on osquery and the MacAdmins extension. Keeping it separate makes setup, troubleshooting, and reuse clearer.
